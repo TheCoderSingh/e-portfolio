@@ -1,13 +1,29 @@
 import React from 'react';
 import './Header.scss';
-import menuIcon from '../../assets/images/menu.svg';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
 
 const Header = () => {
+	window.onscroll = () => {
+		fixNavbar();
+	};
+
+	let fixNavbar = () => {
+		if (
+			document.body.scrollTop > 150 ||
+			document.documentElement.scrollTop > 150
+		) {
+			document.getElementById('header').classList.add('navbar-active');
+		} else {
+			document.getElementById('header').classList.remove('navbar-active');
+		}
+	};
+
 	return (
 		<header id="header" className="grid">
-			<img src="#" alt="Logo" />
+			<span>JS</span>
 			<nav>
-				<img src={menuIcon} alt="Menu Icon" />
+				<FontAwesomeIcon icon={faBars} />
 				<ul>
 					<li>
 						<a href="#">Home</a>

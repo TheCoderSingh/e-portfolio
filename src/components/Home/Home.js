@@ -1,7 +1,6 @@
 import React from 'react';
 import './Home.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { fac } from '@fortawesome/free-solid-svg-icons';
 import {
 	faFacebook,
 	faInstagram,
@@ -24,22 +23,39 @@ const Home = () => {
 					</p>
 				</div>
 				<div className="social-icons">
-					<a href="https://facebook.com/CoderSingh" target="_blank">
+					<a
+						href="https://facebook.com/CoderSingh"
+						target="_blank"
+						rel="noreferrer"
+					>
 						<FontAwesomeIcon icon={faFacebook} />
 					</a>
-					<a href="https://instagram.com/codersingh" target="_blank">
+					<a
+						href="https://instagram.com/codersingh"
+						target="_blank"
+						rel="noreferrer"
+					>
 						<FontAwesomeIcon icon={faInstagram} />
 					</a>
-					<a href="https://twitter.com/TheCoderSingh" target="_blank">
+					<a
+						href="https://twitter.com/TheCoderSingh"
+						target="_blank"
+						rel="noreferrer"
+					>
 						<FontAwesomeIcon icon={faTwitter} />
 					</a>
 					<a
 						href="https://linkedin.com/in/TheCoderSingh"
 						target="_blank"
+						rel="noreferrer"
 					>
 						<FontAwesomeIcon icon={faLinkedin} />
 					</a>
-					<a href="https://github.com/TheCoderSingh" target="_blank">
+					<a
+						href="https://github.com/TheCoderSingh"
+						target="_blank"
+						rel="noreferrer"
+					>
 						<FontAwesomeIcon icon={faGithub} />
 					</a>
 				</div>
