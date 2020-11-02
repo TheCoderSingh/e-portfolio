@@ -5,11 +5,49 @@ body {
 section {
 	min-height: 100vh;
 	padding: 0 20px;
+	background: #322d3c;
+
+	h1:first-of-type {
+		margin-top: 0;
+	}
 
 	.centered {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		height: 100%;
+	}
+}
+
+#skills,
+#experience,
+#projects,
+#publications,
+#contact {
+	.top-area {
+		text-align: center;
+		padding-top: 60px;
+
+		h1 {
+			margin: 0;
+			color: #d0d07c;
+			font-family: 'Roboto', sans-serif;
+			text-transform: uppercase;
+			letter-spacing: 2px;
+			padding-top: 15px;
+		}
+
+		p {
+			color: #a48ecc;
+			font-family: 'Roboto', sans-serif;
+			margin: 3px;
+		}
+	}
+
+	hr {
+		width: 60%;
+		border: none;
+		height: 1px;
+		background: #d0d07c;
 	}
 }
