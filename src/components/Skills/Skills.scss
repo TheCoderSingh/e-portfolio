@@ -1,0 +1,74 @@
+#skills {
+	background: #322d3c;
+
+	hr {
+		width: 60%;
+		border: none;
+		height: 1px;
+		background: #d0d07c;
+	}
+
+	.top-area {
+		text-align: center;
+		padding-top: 60px;
+
+		h1 {
+			margin: 0;
+			color: #d0d07c;
+			font-family: 'Roboto', sans-serif;
+			text-transform: uppercase;
+			letter-spacing: 2px;
+			padding-top: 15px;
+		}
+
+		p {
+			color: #a48ecc;
+			font-family: 'Roboto', sans-serif;
+			margin: 3px;
+		}
+	}
+
+	.content {
+		margin-top: 30px;
+
+		p {
+			text-align: center;
+			margin-bottom: 50px;
+			color: #fff;
+			font-family: 'Roboto', sans-serif;
+			font-size: 0.9em;
+			line-height: 1.6em;
+		}
+
+		.content-head {
+			display: flex;
+			align-items: center;
+
+			h3 {
+				font-family: 'Roboto', sans-serif;
+				letter-spacing: 1px;
+				color: #a48ecc;
+			}
+		}
+
+		ul {
+			list-style-type: square;
+			padding: 0 0 0 30px;
+
+			display: grid;
+			grid-template-columns: 1fr 1fr;
+
+			li {
+				font-family: 'Roboto', sans-serif;
+				margin: 5px 0;
+				font-size: 0.9em;
+				color: #ccc;
+
+				img {
+					max-height: 80px;
+					max-width: 100%;
+				}
+			}
+		}
+	}
+}
