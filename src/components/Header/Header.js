@@ -1,10 +1,13 @@
 import React from 'react';
+import './Header.scss';
+import menuIcon from '../../assets/images/menu.svg';
 
-const Navbar = () => {
+const Header = () => {
 	return (
-		<header>
-			<img src="" alt="Logo" />
+		<header id="header" className="grid">
+			<img src="#" alt="Logo" />
 			<nav>
+				<img src={menuIcon} alt="Menu Icon" />
 				<ul>
 					<li>
 						<a href="#">Home</a>
@@ -33,4 +36,4 @@ const Navbar = () => {
 	);
 };
 
-export default Navbar;
+export default Header;

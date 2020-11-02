@@ -1,8 +1,9 @@
 import React from 'react';
+import './About.scss';
 
 const About = () => {
 	return (
-		<section id="about">
+		<section id="about" className="grid">
 			<div className="top-area">
 				<h1>About Me</h1>
 				<p>Pretty Interesting! Eh?</p>
