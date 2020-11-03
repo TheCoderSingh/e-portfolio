@@ -1,3 +1,5 @@
+@import '../../Variables.scss';
+
 #home {
 	height: 100vh;
 	background: url('../../assets/images/homebg.jpg');
@@ -16,11 +18,11 @@
 			line-height: 1.2em;
 			font-weight: 400;
 			margin-bottom: 20px;
-			color: #d0d07c;
+			color: $primary-color;
 		}
 
 		p:first-of-type {
-			color: #a48ecc;
+			color: $secondary-color;
 			font-size: 1.3em;
 			font-weight: bold;
 		}
@@ -34,7 +36,7 @@
 	}
 
 	.social-icons {
-		color: #a48ecc;
+		color: $secondary-color;
 		display: flex;
 		justify-items: center;
 		justify-content: space-between;
@@ -43,7 +45,7 @@
 		margin-top: 13px;
 
 		:visited {
-			color: #a48ecc;
+			color: $secondary-color;
 		}
 	}
 
@@ -53,7 +55,7 @@
 		a {
 			color: #fff;
 			text-decoration: none;
-			border: 4px double #d0d07c;
+			border: 4px double $primary-color;
 			padding: 10px;
 			border-radius: 3px;
 			font-family: 'Roboto', sans-serif;
@@ -61,7 +63,7 @@
 		}
 
 		a:hover {
-			background: #d0d07c;
+			background: $primary-color;
 			color: #000;
 		}
 	}

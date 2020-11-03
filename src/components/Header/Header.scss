@@ -1,3 +1,5 @@
+@import '../../Variables.scss';
+
 #header {
 	display: flex;
 	justify-content: space-between;
@@ -8,7 +10,7 @@
 	align-items: center;
 
 	span {
-		color: #d0d07c;
+		color: $primary-color;
 		font-family: 'Noto Serif', serif;
 		font-size: 1.7em;
 		padding-left: 15px;
@@ -23,12 +25,12 @@
 		}
 
 		svg {
-			color: #d0d07c;
+			color: $primary-color;
 			font-size: 1.7em;
 		}
 	}
 }
 
 .navbar-active {
-	background: #322d3c;
+	background: $background-color;
 }
