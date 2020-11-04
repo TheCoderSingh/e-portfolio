@@ -262,6 +262,15 @@
 		.cd-timeline-content {
 			margin-left: 30px;
 			text-align: center;
+			background: none;
+
+			.timeline-content-info {
+				background: none;
+			}
+		}
+
+		.cd-container {
+			background: none;
 		}
 	}
 }
