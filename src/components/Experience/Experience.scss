@@ -250,4 +250,18 @@
 			text-align: right;
 		}
 	}
+
+	@media only screen and (max-width: 1170px) {
+		.cd-timeline-content::before,
+		#cd-timeline::before,
+		.cd-timeline-img {
+			display: none;
+			position: static;
+		}
+
+		.cd-timeline-content {
+			margin-left: 30px;
+			text-align: center;
+		}
+	}
 }
