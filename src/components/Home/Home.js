@@ -14,6 +14,9 @@ const Home = () => {
 		<section id="home" className="grid">
 			<div className="centered">
 				<div className="top-area">
+					<div className="outer-img">
+						<div className="main-img"></div>
+					</div>
 					<p>I am</p>
 					<h1>Jaskaran Singh</h1>
 					<p>
