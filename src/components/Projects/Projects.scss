@@ -145,12 +145,14 @@ $ease: all 0.3s ease-in-out;
 @media only screen and (max-width: 1200px) {
 	.project {
 		height: 400px;
+		margin-bottom: 5px;
 	}
 
 	#projects {
 		#projects-list {
 			display: block;
 			width: unset;
+			background: #333;
 		}
 	}
 }
