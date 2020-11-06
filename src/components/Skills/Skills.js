@@ -7,20 +7,16 @@ const Skills = () => {
 			<div className="top-area">
 				<h1>Skills</h1>
 				<hr />
-				{/* <p>Awesome! Right?</p> */}
 			</div>
 			<div className="content">
 				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-					Mauris aliquet, dolor eu faucibus tempus, tortor erat
-					vehicula orci, id rutrum urna magna in lectus. Pellentesque
-					id ipsum vitae sem lobortis iaculis.
+					With a deep love for JavaScript, I have been developing web
+					and mobile applications using following technologies and
+					tools. I can quickly adapt to new technologies because once
+					you master these, what it really takes is the ability to
+					perform a Google Search and read documentation.
 				</p>
-				<div>
-					<div className="content-head">
-						<h3>Frontend</h3>
-						<hr />
-					</div>
+				<div className="skill-list">
 					<ul>
 						<li>HTML5</li>
 						<li>CSS3</li>
@@ -32,10 +28,6 @@ const Skills = () => {
 						<li>React Native</li>
 						<li>Vue</li>
 					</ul>
-					<div className="content-head">
-						<h3>Backend</h3>
-						<hr />
-					</div>
 					<ul>
 						<li>PHP</li>
 						<li>Python</li>
@@ -44,7 +36,12 @@ const Skills = () => {
 						<li>Native Android</li>
 						<li>Native iOS</li>
 						<li>MySQL</li>
+						<li>Git</li>
+						<li>AWS</li>
 					</ul>
+				</div>
+				<div className="contact-btn">
+					<h3>Say hi!</h3>
 				</div>
 			</div>
 		</section>
