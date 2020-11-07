@@ -19,6 +19,7 @@ const Home = () => {
 					</div>
 					<p>I am</p>
 					<h1>Jaskaran Singh</h1>
+					<h2>a.k.a. The Coder Singh</h2>
 					<p>
 						I am a software engineer, based in Vancouver, BC. I
 						develop websites and mobile applications and aspire to
