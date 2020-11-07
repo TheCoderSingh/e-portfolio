@@ -8,26 +8,38 @@ import zoom from '../../assets/images/projects/zoom.png';
 
 const Projects = () => {
 	useEffect(() => {
-		setClass();
+		viewProject();
 	}, []);
 
-	let setClass = () => {
+	let viewProject = () => {
 		const buttons = document.querySelectorAll('.project');
-		const overlay = document.querySelector('.overlay');
-		const overlayImage = document.querySelector('.overlay__inner img');
 
 		function open(e) {
-			overlay.classList.add('open');
-			const src = e.currentTarget.querySelector('img').src;
-			overlayImage.src = src;
-		}
+			let id = e.target.id;
 
-		function close() {
-			overlay.classList.remove('open');
+			switch (id) {
+				case 'p1':
+					window.open('https://alunos.thecodersingh.com');
+					break;
+				case 'p2':
+					window.open('https://aquashot.thecodersingh.com');
+					break;
+				case 'p3':
+					window.open('https://aura.wmdd.ca');
+					break;
+				case 'p4':
+					window.open('https://elixir.thecodersingh.com');
+					break;
+				case 'p5':
+					window.open('https://zoom.thecodersingh.com');
+					break;
+
+				default:
+					break;
+			}
 		}
 
 		buttons.forEach((button) => button.addEventListener('click', open));
-		overlay.addEventListener('click', close);
 	};
 
 	return (
@@ -39,92 +51,132 @@ const Projects = () => {
 			<div className="content">
 				<div id="projects-list">
 					<div className="project">
-						<img className="project__image" src={alunos} />
-						<p>Alunos</p>
-						<h3 className="grid__title">front-end</h3>
+						<img
+							className="project__image"
+							src={alunos}
+							alt="Project"
+						/>
 						<div className="grid__overlay">
-							<button className="viewbutton">
+							<p>
+								Alunos improves homestay experiences by helping
+								companies in Canada to manage homestay-related
+								activities and faciliting communication.
+							</p>
+							<div className="technologies">
+								<div className="tech">HTML</div>
+								<div className="tech">SCSS</div>
+								<div className="tech">Vue.js</div>
+								<div className="tech">Laravel</div>
+								<div className="tech">Quasar</div>
+								<div className="tech">GraphQL</div>
+							</div>
+							<button className="viewbutton" id="p1">
 								Check it out!
 							</button>
 						</div>
 					</div>
 
 					<div className="project">
-						<img className="project__image" src={aquashot} />
-						<p>pure css</p>
-						<h3 className="grid__title"> front-end</h3>
+						<img
+							className="project__image"
+							src={aquashot}
+							alt="Project"
+						/>
 						<div className="grid__overlay">
-							<button className="viewbutton">view more</button>
-						</div>
-					</div>
-
-					<div className="project">
-						<img className="project__image" src={aura} />
-						<p>web apps</p>
-						<h3 className="grid__title"> full-stack</h3>
-						<div className="grid__overlay">
-							<button className="viewbutton">view more</button>
-						</div>
-					</div>
-
-					<div className="project">
-						<img className="project__image" src={elixir} />
-						<p>daily ui</p>
-						<h3 className="grid__title"> ui/ux design</h3>
-						<div className="grid__overlay">
-							<button className="viewbutton">view more</button>
-						</div>
-					</div>
-
-					<div className="project">
-						<img className="project__image" src={zoom} />
-						<p>websites</p>
-						<h3 className="grid__title"> front-end</h3>
-						<div className="grid__overlay">
-							<button className="viewbutton">view more</button>
+							<p>
+								Alunos improves homestay experiences by helping
+								companies in Canada to manage homestay-related
+								activities and faciliting communication.
+							</p>
+							<div className="technologies">
+								<div className="tech">HTML</div>
+								<div className="tech">SCSS</div>
+								<div className="tech">Vue.js</div>
+								<div className="tech">Laravel</div>
+								<div className="tech">Quasar</div>
+								<div className="tech">GraphQL</div>
+							</div>
+							<button className="viewbutton" id="p2">
+								Check it out!
+							</button>
 						</div>
 					</div>
 
 					<div className="project">
 						<img
 							className="project__image"
-							src="https://images.unsplash.com/photo-1509395176047-4a66953fd231?ixlib=rb-0.3.5&s=a4b3dc4bee43da458f6aa5c05be6bfc4&auto=format&fit=crop&w=700&q=80"
+							src={aura}
+							alt="Project"
 						/>
-						<p>pure css</p>
-						<h3 className="grid__title"> front-end</h3>
 						<div className="grid__overlay">
-							<button className="viewbutton">view more</button>
+							<p>
+								Alunos improves homestay experiences by helping
+								companies in Canada to manage homestay-related
+								activities and faciliting communication.
+							</p>
+							<div className="technologies">
+								<div className="tech">HTML</div>
+								<div className="tech">SCSS</div>
+								<div className="tech">Vue.js</div>
+								<div className="tech">Laravel</div>
+								<div className="tech">Quasar</div>
+								<div className="tech">GraphQL</div>
+							</div>
+							<button className="viewbutton" id="p3">
+								Check it out!
+							</button>
 						</div>
 					</div>
 
 					<div className="project">
 						<img
 							className="project__image"
-							src="https://images.unsplash.com/photo-1481762554390-ff5562748bdf?ixlib=rb-0.3.5&s=1b7f850b7f8f702e237b0f81c0ec0bf5&auto=format&fit=crop&w=700&q=80"
+							src={elixir}
+							alt="Project"
 						/>
-						<p>web apps</p>
-						<h3 className="grid__title"> full-stack</h3>
 						<div className="grid__overlay">
-							<button className="viewbutton">view more</button>
+							<p>
+								Alunos improves homestay experiences by helping
+								companies in Canada to manage homestay-related
+								activities and faciliting communication.
+							</p>
+							<div className="technologies">
+								<div className="tech">HTML</div>
+								<div className="tech">SCSS</div>
+								<div className="tech">Vue.js</div>
+								<div className="tech">Laravel</div>
+								<div className="tech">Quasar</div>
+								<div className="tech">GraphQL</div>
+							</div>
+							<button className="viewbutton" id="p4">
+								Check it out!
+							</button>
 						</div>
 					</div>
 
 					<div className="project">
 						<img
 							className="project__image"
-							src="https://images.unsplash.com/photo-1463620695885-8a91d87c53d0?ixlib=rb-0.3.5&s=e5bf2f64858b8abe2a386b0c6df594e4&auto=format&fit=crop&w=700&q=80"
+							src={zoom}
+							alt="Project"
 						/>
-						<p>daily ui</p>
-						<h3 className="grid__title"> ui/ux design</h3>
 						<div className="grid__overlay">
-							<button className="viewbutton">view more</button>
-						</div>
-					</div>
-
-					<div className="overlay">
-						<div className="overlay__inner">
-							<button className="close">close X</button>
-							<img />
+							<p>
+								Alunos improves homestay experiences by helping
+								companies in Canada to manage homestay-related
+								activities and faciliting communication.
+							</p>
+							<div className="technologies">
+								<div className="tech">HTML</div>
+								<div className="tech">SCSS</div>
+								<div className="tech">Vue.js</div>
+								<div className="tech">Laravel</div>
+								<div className="tech">Quasar</div>
+								<div className="tech">GraphQL</div>
+							</div>
+							<button className="viewbutton" id="p5">
+								Check it out!
+							</button>
 						</div>
 					</div>
 				</div>

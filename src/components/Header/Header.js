@@ -21,30 +21,30 @@ const Header = () => {
 
 	return (
 		<header id="header" className="grid">
-			<span>JS</span>
+			<a href="https://thecodersingh.com/">JS</a>
 			<nav>
 				<FontAwesomeIcon icon={faBars} />
 				<ul>
 					<li>
-						<a href="#">Home</a>
+						<a href="#home">Home</a>
 					</li>
 					<li>
-						<a href="#">About Me</a>
+						<a href="#about">About Me</a>
 					</li>
 					<li>
-						<a href="#">Skills</a>
+						<a href="#skills">Skills</a>
 					</li>
 					<li>
-						<a href="#">Experience</a>
+						<a href="#experience">Experience</a>
 					</li>
 					<li>
-						<a href="#">Projects</a>
+						<a href="#projects">Projects</a>
 					</li>
 					<li>
-						<a href="#">Publications</a>
+						<a href="#publications">Publications</a>
 					</li>
 					<li>
-						<a href="#">Contact Me</a>
+						<a href="#contacts">Contact Me</a>
 					</li>
 				</ul>
 			</nav>

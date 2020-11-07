@@ -64,7 +64,7 @@ const Home = () => {
 					</a>
 				</div>
 				<div className="content">
-					<a href="#">My Resume</a>
+					<a href="/">My Resume</a>
 				</div>
 			</div>
 		</section>

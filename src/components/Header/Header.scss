@@ -9,12 +9,13 @@
 	padding: 15px 0 15px 0;
 	align-items: center;
 
-	span {
+	a {
 		color: $primary-color;
 		font-family: 'Noto Serif', serif;
 		font-size: 1.7em;
 		padding-left: 15px;
 		font-weight: 700;
+		text-decoration: none;
 	}
 
 	nav {
