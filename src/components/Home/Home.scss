@@ -2,14 +2,13 @@
 
 #home {
 	height: 100vh;
-	// background: #fff;
 
 	.top-area {
 		.outer-img {
 			border: 1px solid;
 			padding: 5px;
-			height: 250px;
-			width: 250px;
+			height: 200px;
+			width: 200px;
 			margin: 20px auto;
 			background: #e1e1e1;
 
@@ -57,7 +56,7 @@
 			line-height: 1.6em;
 			color: $secondary-color;
 			font-size: 0.9em;
-			font-family: 'Roboto', sans-serif;
+			font-family: monospace;
 		}
 	}
 
@@ -66,7 +65,6 @@
 		justify-items: center;
 		justify-content: space-between;
 		font-size: 1.9em;
-		// margin: 13px auto 0 auto;
 		max-width: 60%;
 
 		a {
@@ -77,7 +75,6 @@
 
 	.content {
 		padding-top: 40px;
-		// text-align: center;
 
 		a {
 			color: $secondary-color;
@@ -92,6 +89,50 @@
 		a:hover {
 			background: $primary-color;
 			color: #000;
+		}
+	}
+}
+
+@media only screen and (min-width: 495px) {
+	#home {
+		padding-top: 30px;
+
+		.top-area {
+			max-width: 60%;
+			margin: 0 auto;
+
+			.outer-img {
+				height: 180px;
+				width: 180px;
+				border-radius: 50%;
+
+				.main-img {
+					border-radius: 50%;
+				}
+			}
+
+			p:first-of-type {
+				font-size: 2em;
+			}
+
+			p:last-of-type {
+				font-size: 1.3em;
+			}
+		}
+
+		.centered {
+			max-width: 60%;
+			margin: 0 auto;
+			text-align: center;
+
+			.social-icons {
+				justify-content: center;
+				max-width: 100%;
+
+				a {
+					padding: 0 10px;
+				}
+			}
 		}
 	}
 }
