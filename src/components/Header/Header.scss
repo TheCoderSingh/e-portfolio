@@ -19,15 +19,56 @@
 	}
 
 	nav {
-		padding-right: 15px;
-
-		ul {
-			display: none;
-		}
+		text-align: right;
+		padding: 15px 0 15px 0;
 
 		svg {
 			color: $primary-color;
 			font-size: 1.7em;
+			padding-right: 15px;
+			cursor: pointer;
+		}
+
+		ul {
+			list-style: none;
+			margin: 50px 20px;
+
+			li {
+				a {
+					font-size: 1.3em;
+					font-family: monospace;
+					color: $background-color;
+				}
+			}
+
+			li:not(:last-child) {
+				margin-bottom: 20px;
+				border-bottom: 1px solid;
+				padding-bottom: 5px;
+			}
+		}
+	}
+
+	nav.open {
+		position: absolute;
+		top: 0;
+		right: 0;
+		height: 100vh;
+		width: 70%;
+		background: #e5e2e2;
+
+		#ham {
+			display: none;
+		}
+	}
+
+	nav.close {
+		ul {
+			display: none;
+		}
+
+		#cross {
+			display: none;
 		}
 	}
 }
