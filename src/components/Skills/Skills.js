@@ -41,7 +41,7 @@ const Skills = () => {
 					</ul>
 				</div>
 				<div className="contact-btn">
-					<h3>Say hi!</h3>
+					<a href="#contact">Say hi!</a>
 				</div>
 			</div>
 		</section>
