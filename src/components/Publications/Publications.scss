@@ -27,7 +27,33 @@
 
 			a {
 				color: #fff;
+				display: block;
 			}
+		}
+	}
+}
+
+@media only screen and (min-width: 640px) {
+	#publications {
+		.content {
+			max-width: 80%;
+			margin: 0 auto;
+
+			.card {
+				h3,
+				p,
+				a {
+					text-align: center;
+				}
+			}
+		}
+	}
+}
+
+@media only screen and (min-width: 820px) {
+	#publications {
+		.content {
+			max-width: 50%;
 		}
 	}
 }

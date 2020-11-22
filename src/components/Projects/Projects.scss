@@ -24,17 +24,17 @@ $ease: all 0.3s ease-in-out;
 		margin: 60px 0 0 0;
 		width: 100%;
 		min-height: 100vh;
-		background: $white;
 		position: relative;
 		display: grid;
 		grid-template-columns: repeat(4, minmax(200px, 1fr));
 		grid-template-rows: 1fr 1fr;
 		grid-gap: 2px;
 	}
+
 	.project {
 		position: relative;
-		background: $primary;
 		overflow: hidden;
+
 		img {
 			position: absolute;
 			opacity: 0.9;
@@ -122,6 +122,23 @@ $ease: all 0.3s ease-in-out;
 	.project__image {
 		margin-left: -50%;
 		height: 100%;
+	}
+}
+
+@media only screen and (min-width: 504px) {
+	#projects {
+		#projects-list {
+			.project__image {
+				margin-left: 0;
+			}
+		}
+	}
+}
+
+@media only screen and (min-width: 736px) {
+	#projects {
+		#projects-list {
+		}
 	}
 }
 
