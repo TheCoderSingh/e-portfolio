@@ -36,7 +36,10 @@ const Contact = () => {
 											<span>TALK</span>
 										</div>
 										<div className="app-contact">
-											Phone: +1(604)849-2755
+											Phone:&nbsp;
+											<a href="tel:6048492755">
+												+1(604)849-2755
+											</a>
 										</div>
 										<div className="app-contact">
 											Email:{' '}
