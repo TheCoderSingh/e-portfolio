@@ -76,3 +76,21 @@
 .navbar-active {
 	background: $background-color;
 }
+
+@media only screen and (min-width: 500px) {
+	nav {
+		max-width: 60%;
+	}
+}
+
+@media only screen and (min-width: 730px) {
+	nav {
+		max-width: 40%;
+	}
+}
+
+@media only screen and (min-width: 1200px) {
+	nav {
+		max-width: 30%;
+	}
+}

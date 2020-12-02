@@ -33,16 +33,23 @@ const Experience = () => {
 								</span>
 							</div>
 							<p>
-								Working alongside the designer team implementing
-								the designs, also developing custom solutions to
-								address team necessities.
+								Developed web and mobile applications including
+								UI/UX while constantly communicating with
+								clients.
 							</p>
 							<ul className="content-skills">
 								<li>HTML5</li>
 								<li>CSS3</li>
 								<li>JavaScript</li>
 								<li>jQuery</li>
+								<li>Angular</li>
+								<li>ReactJS</li>
+								<li>Android</li>
+								<li>Swift</li>
+								<li>PAWN</li>
 								<li>Wordpress</li>
+								<li>Python</li>
+								<li>Django</li>
 							</ul>
 						</div>
 					</div>
@@ -69,16 +76,23 @@ const Experience = () => {
 								</span>
 							</div>
 							<p>
-								Working alongside the designer team implementing
-								the designs, also developing custom solutions to
-								address team necessities.
+								Built projects in different front-end and
+								back-end technologies to serve client's
+								necessities and provided industrial training to
+								students in web design and developmnent.
 							</p>
 							<ul className="content-skills">
 								<li>HTML5</li>
 								<li>CSS3</li>
 								<li>JavaScript</li>
 								<li>jQuery</li>
+								<li>Angular</li>
+								<li>ReactJS</li>
+								<li>Android</li>
+								<li>Swift</li>
 								<li>Wordpress</li>
+								<li>Python</li>
+								<li>Django</li>
 							</ul>
 						</div>
 					</div>
@@ -105,16 +119,17 @@ const Experience = () => {
 								</span>
 							</div>
 							<p>
-								Working alongside the designer team implementing
-								the designs, also developing custom solutions to
-								address team necessities.
+								Learned the concepts of Angular 2 and Symfony
+								and learned how to thrive in a fast-paced
+								startup environment.
 							</p>
 							<ul className="content-skills">
 								<li>HTML5</li>
 								<li>CSS3</li>
 								<li>JavaScript</li>
-								<li>jQuery</li>
-								<li>Wordpress</li>
+								<li>Angular</li>
+								<li>PHP</li>
+								<li>Symfony</li>
 							</ul>
 						</div>
 					</div>

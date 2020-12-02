@@ -84,17 +84,14 @@ const Projects = () => {
 						/>
 						<div className="grid__overlay">
 							<p>
-								Alunos improves homestay experiences by helping
-								companies in Canada to manage homestay-related
-								activities and faciliting communication.
+								AquaShot is a game created in Vanilla JavaScript
+								with the concepts of object oriented
+								programming.
 							</p>
 							<div className="technologies">
 								<div className="tech">HTML</div>
-								<div className="tech">SCSS</div>
-								<div className="tech">Vue.js</div>
-								<div className="tech">Laravel</div>
-								<div className="tech">Quasar</div>
-								<div className="tech">GraphQL</div>
+								<div className="tech">CSS</div>
+								<div className="tech">JavaScript</div>
 							</div>
 							<button className="viewbutton" id="p2">
 								Check it out!
@@ -110,17 +107,16 @@ const Projects = () => {
 						/>
 						<div className="grid__overlay">
 							<p>
-								Alunos improves homestay experiences by helping
-								companies in Canada to manage homestay-related
-								activities and faciliting communication.
+								Aura displays the air quality of the location
+								you are planning to travel to and tells you
+								whether it is safe to travel or not and provides
+								you with a list of precautions to be taken.
 							</p>
 							<div className="technologies">
 								<div className="tech">HTML</div>
 								<div className="tech">SCSS</div>
-								<div className="tech">Vue.js</div>
-								<div className="tech">Laravel</div>
-								<div className="tech">Quasar</div>
-								<div className="tech">GraphQL</div>
+								<div className="tech">ReactJS</div>
+								<div className="tech">MySQL</div>
 							</div>
 							<button className="viewbutton" id="p3">
 								Check it out!
@@ -136,17 +132,13 @@ const Projects = () => {
 						/>
 						<div className="grid__overlay">
 							<p>
-								Alunos improves homestay experiences by helping
-								companies in Canada to manage homestay-related
-								activities and faciliting communication.
+								Elixir is a marketing website created for a
+								school event.
 							</p>
 							<div className="technologies">
 								<div className="tech">HTML</div>
-								<div className="tech">SCSS</div>
-								<div className="tech">Vue.js</div>
-								<div className="tech">Laravel</div>
-								<div className="tech">Quasar</div>
-								<div className="tech">GraphQL</div>
+								<div className="tech">CSS</div>
+								<div className="tech">JavaScript</div>
 							</div>
 							<button className="viewbutton" id="p4">
 								Check it out!
@@ -162,17 +154,13 @@ const Projects = () => {
 						/>
 						<div className="grid__overlay">
 							<p>
-								Alunos improves homestay experiences by helping
-								companies in Canada to manage homestay-related
-								activities and faciliting communication.
+								Zoom provides dry-cleaning services and is
+								created for a client.
 							</p>
 							<div className="technologies">
 								<div className="tech">HTML</div>
-								<div className="tech">SCSS</div>
-								<div className="tech">Vue.js</div>
-								<div className="tech">Laravel</div>
-								<div className="tech">Quasar</div>
-								<div className="tech">GraphQL</div>
+								<div className="tech">CSS</div>
+								<div className="tech">JavaScript</div>
 							</div>
 							<button className="viewbutton" id="p5">
 								Check it out!
