@@ -21,19 +21,19 @@ const Header = () => {
 
 	const nav = useRef(null);
 
+	let toggleMenu = () => {
+		if (nav.current.classList.contains('open')) {
+			nav.current.classList.remove('open');
+			nav.current.classList.add('close');
+		} else {
+			nav.current.classList.remove('close');
+			nav.current.classList.add('open');
+		}
+	};
+
 	useEffect(() => {
 		let ham = document.getElementById('ham');
 		let cross = document.getElementById('cross');
-
-		let toggleMenu = () => {
-			if (nav.current.classList.contains('open')) {
-				nav.current.classList.remove('open');
-				nav.current.classList.add('close');
-			} else {
-				nav.current.classList.remove('close');
-				nav.current.classList.add('open');
-			}
-		};
 
 		ham.addEventListener('click', toggleMenu);
 		cross.addEventListener('click', toggleMenu);
@@ -51,22 +51,34 @@ const Header = () => {
 				/>
 				<ul>
 					<li>
-						<a href="#home">Home</a>
+						<a href="#home" onClick={toggleMenu}>
+							Home
+						</a>
 					</li>
 					<li>
-						<a href="#skills">Skills</a>
+						<a href="#skills" onClick={toggleMenu}>
+							Skills
+						</a>
 					</li>
 					<li>
-						<a href="#experience">Experience</a>
+						<a href="#experience" onClick={toggleMenu}>
+							Experience
+						</a>
 					</li>
 					<li>
-						<a href="#projects">Projects</a>
+						<a href="#projects" onClick={toggleMenu}>
+							Projects
+						</a>
 					</li>
 					<li>
-						<a href="#publications">Publications</a>
+						<a href="#publications" onClick={toggleMenu}>
+							Publications
+						</a>
 					</li>
 					<li>
-						<a href="#contact">Contact Me</a>
+						<a href="#contact" onClick={toggleMenu}>
+							Contact Me
+						</a>
 					</li>
 				</ul>
 			</nav>
